@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/explab")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://portfolio-bkd.herokuapp.com")
 public class ExperienciaController {
 
     @Autowired
